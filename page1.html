@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Руководство по игре</h1>
+  </header>
+  <div class="page-layout">
+    <nav  class="sidebar">
+      <ul>
+        <li>
+          <h3>Навигация по сайту</h3>
+        </li>
+        <li><a href="index.html">Главная (о самой игре и герое)</a></li>
+        <li><a href="page1.html" class="active">Характеристики героя Lash</a></li>
+        <li><a href="page2.html">Сборки и прокачка</a></li>
+        <li><a href="page3.html">Действия по игре</a></li>
+        <li><a href="form.html">Отзывы и предложения</a></li>
+        <li><a href="form_cont.html">Регистрация</a></li>
+        <li><a href="multi.html">Выбор предметов</a></li>
+        <li><a href="https://deadlocked.wiki" target="_blank">
+            <img src="images/website.jpg" alt="Wiki" class="nav-image">
+          </a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Навигация по странице</h3>
+        </li>
+        <li><a href="#1" target="_self">Способности</a>
+          <ul>
+            <li><a href="#1.1" target="_self">Ground Strike</a></li>
+            <li><a href="#1.2" target="_self">Grapple</a></li>
+            <li><a href="#1.3" target="_self">Flog</a></li>
+            <li><a href="#1.4" target="_self">Death Slam</a></li>
+          </ul>
+        </li>
+        <li><a href="#2" target="_self">О герое</a>
+        </li>
+        <li><a href="#top" target="_self">В НАЧАЛО</a></li>
+      </ul>
+
+      <ul>
+        <li>
+          <h3>Навигация по заданиям</h3>
+        </li>
+        <li><a href="passport.html">Passport</a></li>
+        <li><a href="DOM_JS.html">DOM и JavaScript</a></li>
+        <li><a href="passport_change.html">Кириллица на латиницу</a></li>
+        <li><a href="task.html">Задача</a></li>
+        <li><a href="task_form.html">Форма задания</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <section>
+        <h3 id="1">Способности:</h3>
+        <h4 id="1.1">
+          Ground Strike (Удар по земле):
+        </h4>
+        <div class="image-container">
+          <a href="images/skill1full.jpg" target="_self"><img src="images/skill1.jpg" alt="s1f_Image"
+              class="responsive-image"></a>
+        </div>
+        <div class="video-container"><video src="videos/lash_ground_strike.webm" class="responsive-video"
+            controls="controls" autoplay loop></video>
+        </div>
+        </p>
+        </video>
+        <p>
+          Улучшения:
+        <ol>
+          <li>улучшение: -10 сек. перезарядки</li>
+          <li>улучшение: Поражённые враги подбрасываются в воздух и замедляются на 50% на 3 сек.</li>
+          <li>улучшение: +110% к урону за каждый метр до земли (+"повышенный основной урон")</li>
+        </ol>
+        <ul>
+          <li>Описание: Lash наносит мощный удар по земле, нанося урон врагам в области перед собой. Если используется в
+            воздухе, Lash совершает рывок вниз, нанося усиленный урон. (11 метров радиус, 18 сек. перезарядка, 90
+            базовый
+            урон).</li>
+          <li>Особенности: Урон увеличивается с расстоянием до земли. </li>
+        </ul>
+        </p>
+        <h4 id="1.2">
+          Grapple (Сцепка):
+        </h4>
+        <div class="image-container">
+          <a href="images/skill2full.jpg" target="_self"><img src="images/skill2.jpg" alt="s2f_Image"
+              class="responsive-image"></a>
+        </div>
+        <div class="video-container"><video src="videos/lash_grapple.webm" class="responsive-video" controls="controls"
+            autoplay loop></video>
+        </div>
+        <p>
+          Улучшения:
+        <ol>
+          <li>улучшение: -20 сек. перезарядки</li>
+          <li>улучшение: +20м к дальности применения и +10% к урону от выстрелов на 10 сек.</li>
+          <li>улучшение: +20% к скорострельности на 10 сек.</li>
+        </ol>
+        <ul>
+          <li>Описание: Lash подтягивает себя к выбранной цели, восстанавливая заряд
+            энергии и давая возможность прыгать в воздухе или делать рывок. (30 метров радиус, 40 сек. перезарядка)</li>
+          <li>Особенности: Поглощает заряд энергии, что делает Lash невероятно мобильным. </li>
+        </ul>
+        </p>
+        <h4 id="1.3">
+          Flog (Порка):
+        </h4>
+        <div class="image-container">
+          <a href="images/skill3full.jpg" target="_self"><img src="images/skill3.jpg" alt="s1f_Image"
+              class="responsive-image"></a>
+        </div>
+        <div class="video-container"><video src="videos/lash_flog.webm" class="responsive-video" controls="controls"
+            autoplay loop></video>
+        </div>
+        </p>
+        <p>
+          Улучшения:
+        <ol>
+          <li>улучшение: Замедление передвижения на 35% на 3 сек.</li>
+          <li>улучшение: -15 сек. перезарядки</li>
+          <li>улучшение: +105 к урону и замедление скорострельности на 35%</li>
+        </ol>
+        <ul>
+          <li>Описание: Lash использует свой хлыст, чтобы нанести урон врагу и украсть его здоровье (Lifesteal). Это
+            способность с хорошим восстановлением здоровья. (25 метров радиус, 25 сек. перезарядка, 65 урон)</li>
+          <li>Особенности: Ворует здоровье у противников, восстанавливая собственное.</li>
+        </ul>
+        </p>
+        <h4 id="1.4">
+          Death Slam (Бросок смерти) — Ультимейт:
+        </h4>
+        <div class="image-container">
+          <a href="images/skill4full.jpg" target="_self"><img src="images/skill4.jpg" alt="s1f_Image"
+              class="responsive-image"></a>
+        </div>
+        <div class="video-container"><video src="videos/lash_death_slam.webm" class="responsive-video"
+            controls="controls" autoplay loop></video>
+        </div>
+        <p>
+          Улучшения:
+        <ol>
+          <li>улучшение: +8м к дальности броска</li>
+          <li>улучшение: +100 урон</li>
+          <li>улучшение: -60 сек. перезарядки</li>
+        </ol>
+        <ul>
+          <li>Описание: Lash прикрепляет свой хлыст к врагу, поднимает его в воздух и бросает
+            на землю, нанося урон. Враги, попавшие в зону падения, получают урон и замедляются.</li>
+          <li>Особенности: Отлично подходит для контроля противников, может перевернуть ход боя.</li>
+        </ul>
+        </p>
+        <h3 id="2">Характеристики героя Lash </h3>
+        <p>
+        <ul>
+          <li>Здоровье (HP): 550</li>
+          <li>Регенерация здоровья: 2 HP/с</li>
+          <li>Сопротивление к урону от пуль и спирит. урону: 0%</li>
+          <li>Скорость передвижения: 7 м/с</li>
+          <li>Выносливость: 3</li>
+          <li>Оружие (DPS): 61 (урон оружия 10, скорострельность 6.12)</li>
+          <li>Боезапас: 28 патронов</li>
+          <li>Урон ближней атаки:</li>
+          <li>Лёгкая атака: 63</li>
+          <li>Тяжёлая атака: 116</li>
+        </ul>
+        </p>
+        <p><a href="#top" target="_self">В НАЧАЛО</a></p>
+      </section>
+    </main>
+  </div>
+  <div id="footer">&copy; Гопп Вадим</div>
+</body>
+
+</html>

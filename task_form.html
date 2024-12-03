@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Руководство по игре</h1>
+  </header>
+  <div class="page-layout">
+    <nav  class="sidebar">
+      <ul>
+        <li>
+          <h3>Навигация по сайту</h3>
+        </li>
+        <li><a href="index.html">Главная (о самой игре и герое)</a></li>
+        <li><a href="page1.html">Характеристики героя Lash</a></li>
+        <li><a href="page2.html">Сборки и прокачка</a></li>
+        <li><a href="page3.html">Действия по игре</a></li>
+        <li><a href="form.html" >Отзывы и предложения</a></li>
+        <li><a href="form_cont.html">Регистрация</a></li>
+        <li><a href="multi.html">Выбор предметов</a></li>
+        <li><a href="https://deadlocked.wiki" target="_blank">
+            <img src="images/website.jpg" alt="Wiki" class="nav-image">
+          </a></li>
+        
+      </ul>
+
+      <ul>
+        <li>
+          <h3>Навигация по заданиям</h3>
+        </li>
+        <li><a href="passport.html">Passport</a></li>
+        <li><a href="DOM_JS.html">DOM и JavaScript</a></li>
+        <li><a href="passport_change.html">Кириллица на латиницу</a></li>
+        <li><a href="task.html" class="active">Задача</a></li>
+        <li><a href="task_form.html">Форма задания</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <section>
+        <p name="formulation">Принадлежит ли целое С диапазону A-B? Если принадлежит - отправить все на сервер</p>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <ul>
+        <li>Для поисковика:<input name="q" value="search"></li>
+        <li>Формулировка задачи
+          <br><textarea cols="60" rows="4" id="task"
+            name="formulation">Если Z = 1/(XY) определено, отправить на сервер</textarea>
+        </li>
+        <li>X: <input id="X" name="X" type="number" value="1"></li>
+        <li>Y: <input id="Y" name="Y" type="number" value="3"></li>
+        <li>Результат решения задачи: <input id="Z" name="Z" value="не определен"></li>
+        <li>действие 1: <input id="count" type="button" value="Посчитать"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+      </ul>
+    </form>
+  </div>
+  <div id="footer">&copy; Гопп Вадим</div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; Гопп Вадим</p>
+  </footer>
+</body> 
+<script src="task_form.js"></script>
+</html>
